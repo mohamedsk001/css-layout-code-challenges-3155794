@@ -18,7 +18,7 @@
   padding: 0 2rem;
   width: 50%;
   border: 0.5rem solid red;
-  /* we can use this also to center the content itself to use this we need the parent have display: grid;/
+  /* we can use this also to center the content itself to use this we need the parent have display: grid*/
   justify-self: center;
   align-self: center;
   
