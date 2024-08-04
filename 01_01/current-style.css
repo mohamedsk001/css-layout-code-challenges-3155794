@@ -3,13 +3,13 @@
   width: clamp(calc(320px - 3rem), 75%, 70ch);
   height: calc(75vh - 2.5rem);
   border: 0.5rem solid black;
-  display: flex;
-  /* flex-direction: column; no need to use this because there is only one item */
+  /* display: flex;
+   flex-direction: column; no need to use this because there is only one item 
   align-items: center;
   justify-content: center;
-  /* here we can use grid 
+  /* /* here we can use grid  */
     display: grid;
-    justify-items: center; /here we can't use content. the reason is grid has more content
+    /* justify-items: center; /here we can't use content. the reason is grid has more content
     so we need to use items instead of content.
     align-items: center; */
 }
@@ -18,7 +18,7 @@
   padding: 0 2rem;
   width: 50%;
   border: 0.5rem solid red;
-  /* we can use this also to center the content itself */
+  /* we can use this also to center the content itself to use this we need the parent have display: grid;/
   justify-self: center;
   align-self: center;
   
